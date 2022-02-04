@@ -108,8 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/xml/_hifi_still_schedule.xml:$(TARGET_COPY_OUT_VENDOR)/openvx/xml/_hifi_still_schedule.xml
 
 PRODUCT_PACKAGES += \
-    camera.device@3.3-impl \
-    camera.device@3.5-impl \
     libGLES_mali \
     gatekeeper.exynos9810 \
     gralloc.exynos9810 \
@@ -205,7 +203,6 @@ PRODUCT_PACKAGES += \
     libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
-    camera.device@1.0-impl \
     android.hardware.gnss@2.0-impl \
     gps.default \
     keystore.mdfpp \
